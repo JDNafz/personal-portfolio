@@ -1,9 +1,12 @@
 .pagewrap {
-    min-height: calc(100vh - 40px);
+    min-height: calc(100vh - 100px);
     position: relative;
-    background: var(--bg);
+    background-color: #00cf8378;
     overflow: hidden;
     /* transition: background 1s cubic-bezier(.165,.84,.44,1); */
 }
 
-
+.section {
+    display:block;
+    height: 70vh;
+}
