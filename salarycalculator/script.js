@@ -260,11 +260,6 @@ function autoAdd(){
         // console.log(employees);
     });
 }//end autoAddObjects 
-
-//laksjdf;lkjas;lkdfj;lkasjfl;kajsdfl
-
-
-
 // END ----------------------- CODE to AUTO GENERATE USERS ----------------
 
 //QUESTION: How do people format money?
