@@ -13,19 +13,20 @@ body {
     line-height: 1;
 }
 
-.pagewrap {
+/* TODO: page wrap to display a border at all times */
+/* .pagewrap {  
     top = 40px;
     max-height: 92vh;
     position: sticky ;
     background-color: var(--bg);
     overflow: hidden;
     box-sizing: border-box;
-    /* transition: background 1s cubic-bezier(.165,.84,.44,1); */
-}
+    transition: background 1s cubic-bezier(.165,.84,.44,1);
+} */
 
 .section {
     display:block;
-    height: 70vh;
+    height: 30vh;
     background-color: var(--fill);
     margin: 0 60px 100px;
         /* margin-top: 0px;
@@ -33,10 +34,15 @@ body {
         margin-bottom: 100px;
         margin-left: 60px; */
 }
-.page-content {
+/* .page-content {
     border: 2px red solid;
-    /* margin:0 60px 100px 0; */
+    margin:0 60px 100px 0;
+} */
+
+.project{
+    max-width: 30vh;
 }
+
 
 /* Colors */
 :root {
