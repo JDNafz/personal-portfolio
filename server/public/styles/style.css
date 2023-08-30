@@ -4,6 +4,19 @@
     font: inherit;
     /* vertical-align: baseline; */
 }
+@font-face {
+    font-family: 'archivo_blackregular';
+    src: url('../fonts/archivoblack-webfont.woff2') format('woff2'),
+         url('../fonts/archivoblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h2 {
+    font-family: 'archivo_blackregular';
+    font-size: 4em;
+}
 
 body {
     background: var(--empty);
