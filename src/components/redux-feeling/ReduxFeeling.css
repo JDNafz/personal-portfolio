@@ -1,0 +1,35 @@
+.feedbackApp {
+  text-align: center;
+}
+
+.feedbackApp-header {
+  background-color: #18305c;
+  min-height: 50px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.feedbackApp-title {
+  font-size: 2em;
+}
+
+.feedbackApp-intro {
+  font-size: large;
+}
+
+h4 {
+  font-style: italic;
+}
+.componentContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputField{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
