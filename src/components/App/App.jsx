@@ -16,9 +16,9 @@ function App() {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Feedback!</h1>
-          <Link to={"/admin"}>
+          {/* <Link to={"/admin"}> */}
           <h4>Don't forget it!</h4>
-          </Link>
+          {/* </Link> */}
         </header>
       </div>
       {/* abstract this even more with an array of survey inputs

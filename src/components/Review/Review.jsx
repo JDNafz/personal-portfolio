@@ -9,29 +9,29 @@ export default function Review() {
   const dispatch = useDispatch();
   const inputs = useSelector((store) => store.inputs);
 
-  // const handleSubmit = () => {
-  //   if (
-  //     inputs.feeling === -1 ||
-  //     inputs.understanding === -1 ||
-  //     inputs.support === -1
-  //   ) {
-  //     history.push("/");
-  //   } else {
-  //     axios
-  //       .post(`/feedback`, inputs)
-  //       .then((response) => {
-  //         dispatch({ type: "RESET" });
-  //         console.log("Empty cart");
-  //         history.push("/submit-success");
-  //       })
-  //       .catch((error) => {
-  //         console.log(error);
-  //         alert(
-  //           `Sorry, couldn't add feedback at this time. Better luck learning next time...`
-  //         );
-  //       });
-  //   } //else do axios
-  // }; //end handle submit
+  const handleSubmit = () => {
+    if (
+      inputs.feeling === -1 ||
+      inputs.understanding === -1 ||
+      inputs.support === -1
+    ) {
+      history.push("/");
+    } else {
+      axios
+        .post(`/feedback`, inputs)
+        .then((response) => {
+          dispatch({ type: "RESET" });
+          console.log("Empty cart");
+          history.push("/submit-success");
+        })
+        .catch((error) => {
+          console.log(error);
+          alert(
+            `Sorry, couldn't add feedback at this time. Better luck learning next time...`
+          );
+        });
+    } //else do axios
+  }; //end handle submit
   const handleBack = () => {
     // console.log("BACK URL:",backUrl)
     history.push(`/comments`);
@@ -62,7 +62,7 @@ export default function Review() {
       <Button className="backButton" size="small" onClick={handleBack} variant="contained">
         Back
       </Button>
-      <Button size="small" autoFocus variant="contained">
+      <Button size="small" autoFocus onClick={handleSubmit} variant="contained">
         Submit
       </Button>
     </Container>
