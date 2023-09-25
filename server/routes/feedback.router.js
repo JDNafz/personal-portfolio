@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const pool = require("../modules/pool"); //neon database pool config
-// const pool = require("../modules/local-pool"); //local pool config
+// const pool = require("../modules/pool"); //neon database pool config
+const pool = require("../modules/local-pool"); //local pool config
 
 // GET all orders that have been placed, populate with data from the pizza collection
 router.get("/", (req, res) => {
