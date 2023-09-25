@@ -1,20 +1,20 @@
-.App {
+.feedbackApp {
   text-align: center;
 }
 
-.App-header {
-  background-color: #033076;
-  min-height: 70px;
+.feedbackApp-header {
+  background-color: #d2681c;
+  min-height: 50px;
   padding: 20px;
   color: white;
   margin-bottom: 20px;
 }
 
-.App-title {
+.feedbackApp-title {
   font-size: 2em;
 }
 
-.App-intro {
+.feedbackApp-intro {
   font-size: large;
 }
 

@@ -8,7 +8,7 @@ export default function Feeling() {
   return (
     <Survey
       SCREAMER={"SET_FEELING"}
-      nextUrl={"/understanding"}
+      nextUrl={"/feedback/understanding"}
       label={"Feeling?"}
       Question={"How are you feeling today?"}
     />

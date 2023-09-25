@@ -4,12 +4,12 @@ export default function Comments() {
   return (
     <Survey
       SCREAMER={"SET_COMMENTS"}
-      nextUrl={"/review"}
+      nextUrl={"/feedback/review"}
       label={"Comments"}
       Question={"Any comments you want to leave?"}
       requireValidation={false}
       placeholder={"Optional"}
-      backUrl={"/support"}
+      backUrl={"/feedback/support"}
     />
   );
 }

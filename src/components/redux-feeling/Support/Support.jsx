@@ -4,10 +4,10 @@ export default function Support() {
   return (
     <Survey
       SCREAMER={"SET_SUPPORT"}
-      nextUrl={"/comments"}
+      nextUrl={"/feedback/comments"}
       label={"Support?"}
       Question={"How well are you being supported?"}
-      backUrl={"/understanding"}
+      backUrl={"/feedback/understanding"}
     />
   );
 }

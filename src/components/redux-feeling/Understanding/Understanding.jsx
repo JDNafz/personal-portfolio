@@ -4,10 +4,10 @@ export default function Understanding() {
   return (
     <Survey
       SCREAMER={"SET_UNDERSTANDING"}
-      nextUrl={"/support"}
+      nextUrl={"/feedback/support"}
       label={"Understanding?"}
       Question={"How well are you understanding the content?"}
-      backUrl={"/"}
+      backUrl={"/feedback/"}
     />
   );
 }

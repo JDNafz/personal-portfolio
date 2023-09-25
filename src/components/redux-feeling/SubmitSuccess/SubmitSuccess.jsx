@@ -14,11 +14,11 @@ export default function SubmitSuccess() {
   }, []);
   const detectKeyDown = (e) => {
     //if on the /submit-success:
-    if (history.location.pathname === "/submit-success") {
+    if (history.location.pathname === "/feedback/submit-success") {
       // e.key contains pressed key
       if (e.key === "Enter") {
         //if it was the 'Enter' key
-        history.push("/");
+        history.push("/feedback/");
       }
       // else{
       //   console.log("pathname",history.location.pathname);
@@ -28,7 +28,7 @@ export default function SubmitSuccess() {
   };
 
   const handleClick = () => {
-    history.push("/");
+    history.push("/feedback/");
   };
 
   return (

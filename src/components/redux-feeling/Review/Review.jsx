@@ -22,7 +22,7 @@ export default function Review() {
         .then((response) => {
           dispatch({ type: "RESET" });
           console.log("Empty cart");
-          history.push("/submit-success");
+          history.push("/feedback/submit-success");
         })
         .catch((error) => {
           console.log(error);
@@ -34,7 +34,7 @@ export default function Review() {
   }; //end handle submit
   const handleBack = () => {
     // console.log("BACK URL:",backUrl)
-    history.push(`/comments`);
+    history.push(`/feedback/comments`);
   }; //end handleBack
 
   return (
