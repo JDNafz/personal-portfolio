@@ -1,0 +1,45 @@
+body {
+background-color: rgb(188, 231, 203);
+}
+
+
+.blocks {
+  display:grid;
+    grid-template-rows: [row1-start] 112px [row1-end] auto [third-line] auto [last-line];
+    /* background-color: white; */
+}
+
+.nav {
+  flex-direction: row-reverse;
+}
+
+a {
+  margin: 5px;
+  color: black;
+}
+a:hover {
+  text-decoration-line: none;
+}
+
+
+
+.welcomePage {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#jdName{
+  margin: 2em 0 1em 0;
+}
+p {
+  margin: 0 15vw;
+}
+
+
+
+
+
+
+

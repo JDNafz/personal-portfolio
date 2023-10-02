@@ -8,14 +8,15 @@ import Review from "../redux-feeling/Review/Review";
 import SubmitSuccess from "../redux-feeling/SubmitSuccess/SubmitSuccess";
 import { Link } from "react-router-dom";
 import Admin from "../redux-feeling/Admin/Admin";
-import './ReduxFeeling.css'
-
-
+import "./ReduxFeeling.css";
+import Header from "../Header/Header";
 
 export default function ReduxFeeling() {
   return (
-      <Route path="/feedback">
-        <div className="header"></div>
+    <Router>
+      <Route exact path="/feedback">
+      <Header />
+        <div className="feedbackHeader"></div>
         <div className="feedbackApp">
           <header className="feedbackApp-header">
             <h1 className="feedbackApp-title">Feedback!</h1>
@@ -53,5 +54,6 @@ export default function ReduxFeeling() {
           <Admin />
         </Route>
       </Route>
+    </Router>
   );
 } //end ReduxFeeling
