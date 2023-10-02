@@ -1,59 +1,90 @@
 /* TODO Install Bitter Font */
 
-
 .welcomePage {
   display: flex;
-  flex-direction: column;
 }
-#picAndName{
+
+#picAndName {
   display: flex;
+  margin-top: 120px;
 }
-#JDImage{
-  order: 2
+
+#JDImage {
+  border-radius: 50%;
+  max-width: 500px;
 }
 #jdName {
   align-self: center;
   text-align: center;
   font-size: 5rem;
-  font-family: Bitter,serif;
-  margin: 0;
-  order: 1;
+  font-family: Bitter, serif;
+}
+#spacer1{
+  width: 150px;
 }
 
-#checkOutWork{
-  color: black;
+#checkOutWork {
   margin-top: 10vh;
   text-align: center;
   font-size: 1.2rem;
   order: 3;
 }
 #scrollLabel {
-  order:5;
+  order: 5;
 }
 #line1 {
-  order:4;
+  order: 4;
   border-left: 1px rgb(170, 170, 170) solid;
   height: 120px;
 }
-#checkOutWork, #scrollLabel, #line1 {
+#checkOutWork,
+#scrollLabel,
+#line1 {
   color: rgb(170, 170, 170);
 }
 
-@media screen and (max-width:900px) {
-  .welcomePage {
-    display: flex;
+
+@media screen and (max-width:1300px) {
+  #picAndName {
+    margin-top: 90px;
   }
-  
+  #spacer1{
+    width: 75px;
+  }
+  #JDImage {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  #picAndName {
+    margin-top: 50px;
+  }
+  #spacer1{
+    width: 50px;
+  }
+  #JDImage {
+    width: 400px;
+  }
   #jdName {
-    align-self: center;
-    text-align: center;
-    font-size: 5rem;
-    font-family: Bitter,serif;
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  #picAndName {
+    flex-direction: column-reverse;
+  }
+  #JDImage {
+    flex-grow: 2;
+    width: 300px;
+  }
+  #jdName {
+    font-size: 3rem;
     margin: 0;
   }
-  
-  #checkOutWork{
-    margin-top: 10vh;
-    text-align: center;
+
+  #checkOutWork {
+    font-size: 1rem;
+    margin: 35px;
   }
 }

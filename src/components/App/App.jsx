@@ -10,13 +10,11 @@ export default function App() {
   return (
     <Router>
       <Route path="/">
-        <div className="blocks">
-          <div id="banner">
-            <Header />
-          </div>
+        <div id="banner">
+          <Header />
         </div>
       </Route>
-            <WelcomePage />
+      <WelcomePage />
 
       <Route path="/portfolio">
         <Card />

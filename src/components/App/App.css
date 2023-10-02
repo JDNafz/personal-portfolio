@@ -1,14 +1,10 @@
 body {
-background-color: #f4f9fc;
+  background-color: #f4f9fc;
 }
 
-
-.blocks {
-  display:grid;
-    grid-template-rows: [row1-start] 112px [row1-end] auto [third-line] auto [last-line];
-    /* background-color: white; */
+div {
+  margin: 0;
 }
-
 .nav {
   flex-direction: row-reverse;
 }
@@ -21,25 +17,15 @@ a:hover {
   text-decoration-line: none;
 }
 
-
-
 .welcomePage {
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
-#jdName{
+#jdName {
   margin: 2em 0 1em 0;
 }
 p {
   margin: 0 15vw;
 }
-
-
-
-
-
-
-

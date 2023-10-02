@@ -5,7 +5,6 @@ import './Header.css'
 export default function Header() {
   return (
     <div className="header">
-      {/* add banner image Forest eberhard */}
       <div className="socials">
         {/* TODO add icons */}
         <a href="https://github.com/JDNafz">Github</a>
