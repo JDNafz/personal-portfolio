@@ -1,17 +1,21 @@
 #portfolioContainer{
   display: flex;
-  margin-top: 150px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 150px 50px;
 }
+
+
+.portfolioCard {
+  width: 400px;
+  margin: 30px;
+}
+
+
+
+
+
+
 .fillBottom{
   margin-top: 1000px;
 }
-
-
-
-
-
-
-
-
-
-

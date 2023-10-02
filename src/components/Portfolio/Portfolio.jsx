@@ -12,34 +12,43 @@ export default function Portfolio() {
   return (
     <>
       <div id="portfolioContainer">
-        <Card sx={{ maxWidth: 500, margin: "auto" }}>
-          <CardActionArea onClick={() => handleClick(movie)}>
+    <a href="https://weekend-movie-sagas-jdn-d35d1fb91beb.herokuapp.com/#/">
+        <Card className="portfolioCard">
+          <CardActionArea onClick={() => handleClick("movie")}>
             <CardMedia
               component="img"
               image="images/movie-demo.gif"
               alt={`Image of Portfolio example.`}
             />
-            <CardContent>
-              <Typography variant="subtitle" component="div">
-                Movie Database
-              </Typography>
-            </CardContent>
           </CardActionArea>
         </Card>
-        <Card sx={{ maxWidth: 500, margin: "auto" }}>
-          <CardActionArea onClick={() => handleClick(movie)}>
+
+        </a>
+
+        <a href="https://to-do-list-jdn-d1ad334ecfe5.herokuapp.com/">
+        <Card className="portfolioCard">
+          <CardActionArea onClick={() => handleClick("to-do")}>
             <CardMedia
               component="img"
               image="images/todo-list-app.gif"
               alt={`Image of Portfolio example.`}
             />
-            <CardContent>
-              <Typography variant="subtitle" component="div">  
-                Todo-list
-              </Typography>
-            </CardContent>
           </CardActionArea>
         </Card>
+              </a>
+        <a href="https://server-side-calculator-jdn-6b027b5f3ade.herokuapp.com/">
+          <Card className="portfolioCard">
+            <CardActionArea onClick={() => handleClick("calculator")}>
+              <CardMedia
+                component="img"
+                height="330"
+                image="images/EmployeeCalcProject.png"
+                alt={`Image of Portfolio example.`}
+              />
+            </CardActionArea>
+          </Card>
+        </a>
+
       </div>
       <div className="fillBottom" />
     </>
