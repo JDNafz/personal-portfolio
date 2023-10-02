@@ -1,9 +1,15 @@
+/* TODO Install Bitter Font */
+
+
 .welcomePage {
   display: flex;
   flex-direction: column;
-  flex-wrap:nowrap;
-  padding: 0;
-  margin: 0;
+}
+#picAndName{
+  display: flex;
+}
+#JDImage{
+  order: 2
 }
 #jdName {
   align-self: center;
@@ -11,5 +17,43 @@
   font-size: 5rem;
   font-family: Bitter,serif;
   margin: 0;
+  order: 1;
 }
-/* TODO Install Bitter Font */
+
+#checkOutWork{
+  color: black;
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 1.2rem;
+  order: 3;
+}
+#scrollLabel {
+  order:5;
+}
+#line1 {
+  order:4;
+  border-left: 1px rgb(170, 170, 170) solid;
+  height: 120px;
+}
+#checkOutWork, #scrollLabel, #line1 {
+  color: rgb(170, 170, 170);
+}
+
+@media screen and (max-width:900px) {
+  .welcomePage {
+    display: flex;
+  }
+  
+  #jdName {
+    align-self: center;
+    text-align: center;
+    font-size: 5rem;
+    font-family: Bitter,serif;
+    margin: 0;
+  }
+  
+  #checkOutWork{
+    margin-top: 10vh;
+    text-align: center;
+  }
+}
