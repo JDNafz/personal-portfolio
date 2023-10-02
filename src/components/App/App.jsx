@@ -4,7 +4,7 @@ import { HashRouter as Router, Route } from "react-router-dom";
 import { Card } from "@mui/material";
 import ReduxFeeling from "../redux-feeling/ReduxFeeling";
 import Header from "../Header/Header";
-import WelcomePage from "../WelcomPage/WelcomePage";
+import WelcomePage from "../WelcomePage/WelcomePage";
 
 export default function App() {
   return (
