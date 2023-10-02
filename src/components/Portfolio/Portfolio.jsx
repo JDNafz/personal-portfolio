@@ -34,7 +34,7 @@ export default function Portfolio() {
               alt={`Image of Portfolio example.`}
             />
             <CardContent>
-              <Typography variant="subtitle" component="div">
+              <Typography variant="subtitle" component="div">  
                 Todo-list
               </Typography>
             </CardContent>
