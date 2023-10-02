@@ -1,14 +1,18 @@
+import Avatar from "@mui/material/Avatar";
+import "./WelcomePage.css";
+
 export default function WelcomePage() {
   return (
     <div className="welcomePage">
-      <h1 id="jdName"> JD Nafziger </h1>
-
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquid
-        laudantium placeat optio. Quo magnam possimus laboriosam sed soluta et,
-        eligendi reprehenderit quaerat mollitia voluptate atque est molestiae
-        non odit?
-      </p>
+      <Avatar
+        alt="JD image"
+        src="../../../public/JD.jpg"
+        sx={{ width: 240, height: 240 }}
+      />
+      <h1 id="jdName">
+        Hi, my <br />
+        name is <b>JD</b>
+      </h1>
     </div>
   );
 }
