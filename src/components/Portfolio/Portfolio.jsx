@@ -44,7 +44,7 @@ export default function Portfolio() {
               <CardMedia
                 component="img"
                 height="330"
-                image="images/EmployeeCalcProject.png"
+                image="images/react-gallery.PNG"
                 alt={`Image of Portfolio example.`}
               />
             </CardActionArea>
