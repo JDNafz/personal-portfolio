@@ -12,7 +12,7 @@ export default function Portfolio() {
   return (
     <>
       <div id="portfolioContainer">
-      <a href="https://github.com/JDNafz/JustChess">
+      <a href="www.jcbyjd.com">
           <Card className="portfolioCard">
             <CardActionArea >
               <CardMedia
