@@ -21,7 +21,7 @@ export default function Portfolio() {
                 alt={`Image of Portfolio example.`}
               />
             </CardActionArea>
-            <span>*Currently in Progress* due date is 10/23/23</span>
+            <span>Completed October 23rd 2023</span>
           </Card>
         </a>
 
