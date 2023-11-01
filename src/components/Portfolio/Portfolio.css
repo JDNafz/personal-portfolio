@@ -5,17 +5,18 @@
   margin: 150px 50px;
 }
 
-
+.cardContainer {
+  margin: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 401px;
+  justify-content: center;
+}
 .portfolioCard {
   width: 400px;
   margin: 30px;
 }
 
-
-
-
-
-
 .fillBottom{
-  margin-top: 1000px;
+  margin-top: 400px;
 }
