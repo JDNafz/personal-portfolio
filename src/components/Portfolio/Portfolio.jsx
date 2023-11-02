@@ -11,6 +11,7 @@ import {
 export default function Portfolio() {
   return (
     <>
+    
       <div id="portfolioContainer">
         <div className="cardContainer">
           <a href="https://www.jcbyjd.com">
@@ -48,7 +49,6 @@ export default function Portfolio() {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  height="330"
                   image="images/image-gallery.gif"
                   alt={`Image of Portfolio example.`}
                 />
@@ -78,7 +78,6 @@ export default function Portfolio() {
               <CardActionArea>
                 <CardMedia
                   component="img"
-                  height="330"
                   image="images/EmployeeCalcProject.png"
                   alt={`Image of Portfolio example.`}
                 />
