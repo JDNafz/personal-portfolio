@@ -7,8 +7,8 @@ export default function Header() {
     <div className="header">
       <div className="socials">
         {/* TODO add icons */}
-        <a href="https://github.com/JDNafz">Github</a>
-        <a href="https://linkedin.com/in/jdnafziger">Linkedin</a>
+        <a href="https://github.com/Moody0069">Github</a>
+        <a href="https://www.linkedin.com/in/mohamud-moalim-63446625b/">Linkedin</a>
       </div>
       <div className="nav">
         <Link to={"/"}>Home</Link>

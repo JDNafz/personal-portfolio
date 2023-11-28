@@ -1,90 +1,61 @@
-/* TODO Install Bitter Font */
 
-.welcomePage {
+.welcome-page {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8f8f8; /* Set your preferred background color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333; /* Set your preferred text color */
 }
 
-#picAndName {
-  display: flex;
-  margin-top: 120px;
-}
-
-#JDImage {
-  border-radius: 50%;
-  max-width: 500px;
-}
-#jdName {
-  align-self: center;
+.intro-container {
+  max-width: 800px;
+  margin: 0 auto;
   text-align: center;
-  font-size: 5rem;
-  font-family: Bitter, serif;
 }
-#spacer1{
+
+.jd-name {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #007bff; /* Set your preferred highlight color */
+}
+
+.jd-image {
   width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
-#checkOutWork {
-  margin-top: 10vh;
-  text-align: center;
+.intro-text {
+  margin-top: 20px;
   font-size: 1.2rem;
-  order: 3;
-}
-#scrollLabel {
-  order: 5;
-}
-#line1 {
-  order: 4;
-  border-left: 1px rgb(170, 170, 170) solid;
-  height: 120px;
-}
-#checkOutWork,
-#scrollLabel,
-#line1 {
-  color: rgb(170, 170, 170);
+  line-height: 1.5;
 }
 
-
-@media screen and (max-width:1300px) {
-  #picAndName {
-    margin-top: 90px;
-  }
-  #spacer1{
-    width: 75px;
-  }
-  #JDImage {
-    width: 450px;
-  }
-}
-@media screen and (max-width: 1050px) {
-  #picAndName {
-    margin-top: 50px;
-  }
-  #spacer1{
-    width: 50px;
-  }
-  #JDImage {
-    width: 400px;
-  }
-  #jdName {
-    font-size: 3.5rem;
-  }
+.work-section {
+  margin-top: 50px;
 }
 
-@media screen and (max-width: 775px) {
-  #picAndName {
-    flex-direction: column-reverse;
-  }
-  #JDImage {
-    flex-grow: 2;
-    width: 300px;
-  }
-  #jdName {
-    font-size: 3rem;
-    margin: 0;
-  }
+.check-out-work {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 
-  #checkOutWork {
-    font-size: 1rem;
-    margin: 35px;
-  }
+.line {
+  height: 2px;
+  width: 50px;
+  background-color: #007bff; /* Match the highlight color */
+  margin: 10px auto;
+}
+
+.scroll-label {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #888; /* Set your preferred color */
 }
