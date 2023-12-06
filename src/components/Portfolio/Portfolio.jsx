@@ -25,12 +25,17 @@ export default function Portfolio() {
           </Card>
         </a>
 
-        <a href="https://weekend-movie-sagas-jdn-d35d1fb91beb.herokuapp.com/#/">
+        <a href="https://moviesaga-9db002d1cc56.herokuapp.com/#/">
           <Card className="portfolioCard">
             <CardActionArea>
               <CardMedia
                 component="img"
-                image="images/movie-demo.gif"
+                image="images/M-movie.png"
+                alt={`Image of Portfolio example.`}
+              />
+              <CardMedia
+                component="img"
+                image="images/M2-movie.png"
                 alt={`Image of Portfolio example.`}
               />
             </CardActionArea>
