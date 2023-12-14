@@ -17,7 +17,7 @@ export default function Portfolio() {
             <CardActionArea >
               <CardMedia
                 component="img"
-                image="images/Chess_Demo_10.1.23.gif"
+                image="images/JCbyJD.gif"
                 alt={`Image of Portfolio example.`}
               />
             </CardActionArea>
