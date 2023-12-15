@@ -15,8 +15,8 @@ export default function WelcomePage() {
           src="images/jd-sq.jpg"
         />
       </div>
-      <h4 id="checkOutWork">Checkout some of my work</h4>
-      <div id="line1"></div>
+      <h4 className="checkOutWork">Checkout some of my work</h4>
+      <div className="line1"></div>
       <h4 id="scrollLabel">scroll...</h4>
     </div>
   );
