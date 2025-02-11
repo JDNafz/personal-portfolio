@@ -5,7 +5,7 @@ export default function WelcomePage() {
     <div className="welcomePage">
       <div id="picAndName">
         <h1 id="jdName">
-          Hi, my <br />
+          Hello, my <br />
           name is <b>JD</b>
         </h1>
         <div id="spacer1" />
